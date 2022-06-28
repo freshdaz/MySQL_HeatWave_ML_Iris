@@ -16,7 +16,7 @@ CREATE TABLE `iris` (
   `petal_length` float DEFAULT NULL,
   `petal_width` float DEFAULT NULL,
   `class` varchar(16) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT="Reference table";
 
 
 --
@@ -185,7 +185,7 @@ CREATE TABLE `iris_test` (
   `sepal_width` float DEFAULT NULL,
   `petal_length` float DEFAULT NULL,
   `petal_width` float DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT="Contains the test dataset";
 
 
 --
@@ -235,7 +235,7 @@ CREATE TABLE `iris_train` (
   `petal_length` float DEFAULT NULL,
   `petal_width` float DEFAULT NULL,
   `class` varchar(16) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT="Contains the training dataset";
 
 
 --
@@ -375,7 +375,7 @@ CREATE TABLE `iris_validate` (
   `petal_length` float DEFAULT NULL,
   `petal_width` float DEFAULT NULL,
   `class` varchar(16) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT="Contains the validation dataset";
 
 
 --
